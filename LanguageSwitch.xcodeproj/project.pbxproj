@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874D953C1919258C002EE986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953B1919258C002EE986 /* Foundation.framework */; };
+		874D953E1919258C002EE986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953D1919258C002EE986 /* CoreGraphics.framework */; };
+		874D95401919258C002EE986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953F1919258C002EE986 /* UIKit.framework */; };
+		874D95461919258C002EE986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874D95441919258C002EE986 /* InfoPlist.strings */; };
+		874D95481919258C002EE986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D95471919258C002EE986 /* main.m */; };
+		874D954C1919258C002EE986 /* ALIENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D954B1919258C002EE986 /* ALIENAppDelegate.m */; };
+		874D954F1919258C002EE986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874D954D1919258C002EE986 /* Main.storyboard */; };
+		874D95521919258C002EE986 /* ALIENViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D95511919258C002EE986 /* ALIENViewController.m */; };
+		874D95541919258C002EE986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874D95531919258C002EE986 /* Images.xcassets */; };
+		874D955B1919258C002EE986 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D955A1919258C002EE986 /* XCTest.framework */; };
+		874D955C1919258C002EE986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953B1919258C002EE986 /* Foundation.framework */; };
+		874D955D1919258C002EE986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953F1919258C002EE986 /* UIKit.framework */; };
+		874D95651919258C002EE986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874D95631919258C002EE986 /* InfoPlist.strings */; };
+		874D95671919258C002EE986 /* LanguageSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D95661919258C002EE986 /* LanguageSwitchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874D955E1919258C002EE986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874D95301919258C002EE986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874D95371919258C002EE986;
+			remoteInfo = LanguageSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		874D95381919258C002EE986 /* LanguageSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874D953B1919258C002EE986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874D953D1919258C002EE986 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		874D953F1919258C002EE986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		874D95431919258C002EE986 /* LanguageSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageSwitch-Info.plist"; sourceTree = "<group>"; };
+		874D95451919258C002EE986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874D95471919258C002EE986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874D95491919258C002EE986 /* LanguageSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguageSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		874D954A1919258C002EE986 /* ALIENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIENAppDelegate.h; sourceTree = "<group>"; };
+		874D954B1919258C002EE986 /* ALIENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIENAppDelegate.m; sourceTree = "<group>"; };
+		874D954E1919258C002EE986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		874D95501919258C002EE986 /* ALIENViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIENViewController.h; sourceTree = "<group>"; };
+		874D95511919258C002EE986 /* ALIENViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIENViewController.m; sourceTree = "<group>"; };
+		874D95531919258C002EE986 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		874D95591919258C002EE986 /* LanguageSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		874D955A1919258C002EE986 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		874D95621919258C002EE986 /* LanguageSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageSwitchTests-Info.plist"; sourceTree = "<group>"; };
+		874D95641919258C002EE986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874D95661919258C002EE986 /* LanguageSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSwitchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874D95351919258C002EE986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D953E1919258C002EE986 /* CoreGraphics.framework in Frameworks */,
+				874D95401919258C002EE986 /* UIKit.framework in Frameworks */,
+				874D953C1919258C002EE986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874D95561919258C002EE986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D955B1919258C002EE986 /* XCTest.framework in Frameworks */,
+				874D955D1919258C002EE986 /* UIKit.framework in Frameworks */,
+				874D955C1919258C002EE986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874D952F1919258C002EE986 = {
+			isa = PBXGroup;
+			children = (
+				874D95411919258C002EE986 /* LanguageSwitch */,
+				874D95601919258C002EE986 /* LanguageSwitchTests */,
+				874D953A1919258C002EE986 /* Frameworks */,
+				874D95391919258C002EE986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874D95391919258C002EE986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874D95381919258C002EE986 /* LanguageSwitch.app */,
+				874D95591919258C002EE986 /* LanguageSwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874D953A1919258C002EE986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874D953B1919258C002EE986 /* Foundation.framework */,
+				874D953D1919258C002EE986 /* CoreGraphics.framework */,
+				874D953F1919258C002EE986 /* UIKit.framework */,
+				874D955A1919258C002EE986 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874D95411919258C002EE986 /* LanguageSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				874D954A1919258C002EE986 /* ALIENAppDelegate.h */,
+				874D954B1919258C002EE986 /* ALIENAppDelegate.m */,
+				874D954D1919258C002EE986 /* Main.storyboard */,
+				874D95501919258C002EE986 /* ALIENViewController.h */,
+				874D95511919258C002EE986 /* ALIENViewController.m */,
+				874D95531919258C002EE986 /* Images.xcassets */,
+				874D95421919258C002EE986 /* Supporting Files */,
+			);
+			path = LanguageSwitch;
+			sourceTree = "<group>";
+		};
+		874D95421919258C002EE986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874D95431919258C002EE986 /* LanguageSwitch-Info.plist */,
+				874D95441919258C002EE986 /* InfoPlist.strings */,
+				874D95471919258C002EE986 /* main.m */,
+				874D95491919258C002EE986 /* LanguageSwitch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874D95601919258C002EE986 /* LanguageSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				874D95661919258C002EE986 /* LanguageSwitchTests.m */,
+				874D95611919258C002EE986 /* Supporting Files */,
+			);
+			path = LanguageSwitchTests;
+			sourceTree = "<group>";
+		};
+		874D95611919258C002EE986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874D95621919258C002EE986 /* LanguageSwitchTests-Info.plist */,
+				874D95631919258C002EE986 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874D95371919258C002EE986 /* LanguageSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874D956A1919258C002EE986 /* Build configuration list for PBXNativeTarget "LanguageSwitch" */;
+			buildPhases = (
+				874D95341919258C002EE986 /* Sources */,
+				874D95351919258C002EE986 /* Frameworks */,
+				874D95361919258C002EE986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageSwitch;
+			productName = LanguageSwitch;
+			productReference = 874D95381919258C002EE986 /* LanguageSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		874D95581919258C002EE986 /* LanguageSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874D956D1919258C002EE986 /* Build configuration list for PBXNativeTarget "LanguageSwitchTests" */;
+			buildPhases = (
+				874D95551919258C002EE986 /* Sources */,
+				874D95561919258C002EE986 /* Frameworks */,
+				874D95571919258C002EE986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874D955F1919258C002EE986 /* PBXTargetDependency */,
+			);
+			name = LanguageSwitchTests;
+			productName = LanguageSwitchTests;
+			productReference = 874D95591919258C002EE986 /* LanguageSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874D95301919258C002EE986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALIEN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AlienLi;
+				TargetAttributes = {
+					874D95581919258C002EE986 = {
+						TestTargetID = 874D95371919258C002EE986;
+					};
+				};
+			};
+			buildConfigurationList = 874D95331919258C002EE986 /* Build configuration list for PBXProject "LanguageSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874D952F1919258C002EE986;
+			productRefGroup = 874D95391919258C002EE986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874D95371919258C002EE986 /* LanguageSwitch */,
+				874D95581919258C002EE986 /* LanguageSwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874D95361919258C002EE986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D95541919258C002EE986 /* Images.xcassets in Resources */,
+				874D95461919258C002EE986 /* InfoPlist.strings in Resources */,
+				874D954F1919258C002EE986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874D95571919258C002EE986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D95651919258C002EE986 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874D95341919258C002EE986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D954C1919258C002EE986 /* ALIENAppDelegate.m in Sources */,
+				874D95481919258C002EE986 /* main.m in Sources */,
+				874D95521919258C002EE986 /* ALIENViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874D95551919258C002EE986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D95671919258C002EE986 /* LanguageSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874D955F1919258C002EE986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874D95371919258C002EE986 /* LanguageSwitch */;
+			targetProxy = 874D955E1919258C002EE986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874D95441919258C002EE986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874D95451919258C002EE986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		874D954D1919258C002EE986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874D954E1919258C002EE986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		874D95631919258C002EE986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874D95641919258C002EE986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874D95681919258C002EE986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		874D95691919258C002EE986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874D956B1919258C002EE986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageSwitch/LanguageSwitch-Prefix.pch";
+				INFOPLIST_FILE = "LanguageSwitch/LanguageSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		874D956C1919258C002EE986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageSwitch/LanguageSwitch-Prefix.pch";
+				INFOPLIST_FILE = "LanguageSwitch/LanguageSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		874D956E1919258C002EE986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LanguageSwitch.app/LanguageSwitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageSwitch/LanguageSwitch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LanguageSwitchTests/LanguageSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		874D956F1919258C002EE986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LanguageSwitch.app/LanguageSwitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageSwitch/LanguageSwitch-Prefix.pch";
+				INFOPLIST_FILE = "LanguageSwitchTests/LanguageSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874D95331919258C002EE986 /* Build configuration list for PBXProject "LanguageSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874D95681919258C002EE986 /* Debug */,
+				874D95691919258C002EE986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874D956A1919258C002EE986 /* Build configuration list for PBXNativeTarget "LanguageSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874D956B1919258C002EE986 /* Debug */,
+				874D956C1919258C002EE986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		874D956D1919258C002EE986 /* Build configuration list for PBXNativeTarget "LanguageSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874D956E1919258C002EE986 /* Debug */,
+				874D956F1919258C002EE986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874D95301919258C002EE986 /* Project object */;
+}
