@@ -10,17 +10,16 @@
 		874D953C1919258C002EE986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953B1919258C002EE986 /* Foundation.framework */; };
 		874D953E1919258C002EE986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953D1919258C002EE986 /* CoreGraphics.framework */; };
 		874D95401919258C002EE986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953F1919258C002EE986 /* UIKit.framework */; };
-		874D95461919258C002EE986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874D95441919258C002EE986 /* InfoPlist.strings */; };
 		874D95481919258C002EE986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D95471919258C002EE986 /* main.m */; };
 		874D954C1919258C002EE986 /* ALIENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D954B1919258C002EE986 /* ALIENAppDelegate.m */; };
-		874D954F1919258C002EE986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874D954D1919258C002EE986 /* Main.storyboard */; };
 		874D95521919258C002EE986 /* ALIENViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D95511919258C002EE986 /* ALIENViewController.m */; };
 		874D95541919258C002EE986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874D95531919258C002EE986 /* Images.xcassets */; };
 		874D955B1919258C002EE986 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D955A1919258C002EE986 /* XCTest.framework */; };
 		874D955C1919258C002EE986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953B1919258C002EE986 /* Foundation.framework */; };
 		874D955D1919258C002EE986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D953F1919258C002EE986 /* UIKit.framework */; };
-		874D95651919258C002EE986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874D95631919258C002EE986 /* InfoPlist.strings */; };
 		874D95671919258C002EE986 /* LanguageSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D95661919258C002EE986 /* LanguageSwitchTests.m */; };
+		874D9575191926A0002EE986 /* LanguageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D9574191926A0002EE986 /* LanguageController.m */; };
+		874D958D19192E9E002EE986 /* Localization.string.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874D958C19192E9E002EE986 /* Localization.string.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +38,20 @@
 		874D953D1919258C002EE986 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		874D953F1919258C002EE986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		874D95431919258C002EE986 /* LanguageSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageSwitch-Info.plist"; sourceTree = "<group>"; };
-		874D95451919258C002EE986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		874D95471919258C002EE986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		874D95491919258C002EE986 /* LanguageSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguageSwitch-Prefix.pch"; sourceTree = "<group>"; };
 		874D954A1919258C002EE986 /* ALIENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIENAppDelegate.h; sourceTree = "<group>"; };
 		874D954B1919258C002EE986 /* ALIENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIENAppDelegate.m; sourceTree = "<group>"; };
-		874D954E1919258C002EE986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		874D95501919258C002EE986 /* ALIENViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIENViewController.h; sourceTree = "<group>"; };
 		874D95511919258C002EE986 /* ALIENViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIENViewController.m; sourceTree = "<group>"; };
 		874D95531919258C002EE986 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		874D95591919258C002EE986 /* LanguageSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874D955A1919258C002EE986 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		874D95621919258C002EE986 /* LanguageSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageSwitchTests-Info.plist"; sourceTree = "<group>"; };
-		874D95641919258C002EE986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		874D95661919258C002EE986 /* LanguageSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSwitchTests.m; sourceTree = "<group>"; };
+		874D9573191926A0002EE986 /* LanguageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageController.h; sourceTree = "<group>"; };
+		874D9574191926A0002EE986 /* LanguageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageController.m; sourceTree = "<group>"; };
+		874D958C19192E9E002EE986 /* Localization.string.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localization.string.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +81,9 @@
 		874D952F1919258C002EE986 = {
 			isa = PBXGroup;
 			children = (
+				874D958C19192E9E002EE986 /* Localization.string.strings */,
+				874D9573191926A0002EE986 /* LanguageController.h */,
+				874D9574191926A0002EE986 /* LanguageController.m */,
 				874D95411919258C002EE986 /* LanguageSwitch */,
 				874D95601919258C002EE986 /* LanguageSwitchTests */,
 				874D953A1919258C002EE986 /* Frameworks */,
@@ -114,7 +116,6 @@
 			children = (
 				874D954A1919258C002EE986 /* ALIENAppDelegate.h */,
 				874D954B1919258C002EE986 /* ALIENAppDelegate.m */,
-				874D954D1919258C002EE986 /* Main.storyboard */,
 				874D95501919258C002EE986 /* ALIENViewController.h */,
 				874D95511919258C002EE986 /* ALIENViewController.m */,
 				874D95531919258C002EE986 /* Images.xcassets */,
@@ -127,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				874D95431919258C002EE986 /* LanguageSwitch-Info.plist */,
-				874D95441919258C002EE986 /* InfoPlist.strings */,
 				874D95471919258C002EE986 /* main.m */,
 				874D95491919258C002EE986 /* LanguageSwitch-Prefix.pch */,
 			);
@@ -147,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				874D95621919258C002EE986 /* LanguageSwitchTests-Info.plist */,
-				874D95631919258C002EE986 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,6 +211,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 874D952F1919258C002EE986;
 			productRefGroup = 874D95391919258C002EE986 /* Products */;
@@ -230,8 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				874D95541919258C002EE986 /* Images.xcassets in Resources */,
-				874D95461919258C002EE986 /* InfoPlist.strings in Resources */,
-				874D954F1919258C002EE986 /* Main.storyboard in Resources */,
+				874D958D19192E9E002EE986 /* Localization.string.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874D95651919258C002EE986 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +252,7 @@
 				874D954C1919258C002EE986 /* ALIENAppDelegate.m in Sources */,
 				874D95481919258C002EE986 /* main.m in Sources */,
 				874D95521919258C002EE986 /* ALIENViewController.m in Sources */,
+				874D9575191926A0002EE986 /* LanguageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,33 +273,6 @@
 			targetProxy = 874D955E1919258C002EE986 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		874D95441919258C002EE986 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				874D95451919258C002EE986 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		874D954D1919258C002EE986 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				874D954E1919258C002EE986 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		874D95631919258C002EE986 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				874D95641919258C002EE986 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		874D95681919258C002EE986 /* Debug */ = {
@@ -457,6 +430,7 @@
 				874D956C1919258C002EE986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874D956D1919258C002EE986 /* Build configuration list for PBXNativeTarget "LanguageSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +439,7 @@
 				874D956F1919258C002EE986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
